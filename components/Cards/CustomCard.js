@@ -17,15 +17,16 @@ const CustomCard = (props) => (
         bordered
         style={{
             width: 300,
-
+            // height: 500
         }}
         cover={
             <img
+                height="350px"
                 alt="example"
                 src={props.src} />}
     >
         <Meta title="Europe Street beat" description="www.instagram.com" />
-    </Card>
+    </Card >
 );
 
 export default CustomCard;
