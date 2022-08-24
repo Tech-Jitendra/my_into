@@ -25,7 +25,10 @@ const CustomCard = (props) => (
                 alt="example"
                 src={props.src} />}
     >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        <Meta
+            textAlign="center"
+            justifyContent="center"
+            title="Europe Street beat" description="www.instagram.com" />
     </Card >
 );
 
